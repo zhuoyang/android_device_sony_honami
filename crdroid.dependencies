@@ -36,7 +36,7 @@
   },
   {
     "remote":       "github",
-    "repository":   "alviteri/vendor-sony-blobs",
+    "repository":   "zhuoyang/vendor-sony-blobs",
     "target_path":  "vendor",
     "revision":     "master"
   },
