@@ -2,7 +2,13 @@
   {
     "repository":   "android_device_sony_rhine",
     "target_path":  "device/sony/rhine",
-    "revision":     "6.0.0"
+    "revision":     "6.0.0v2"
+  },
+  {
+    "remote":       "CyanogenMod",
+    "repository":   "android_device_qcom_common",
+    "target_path":  "device/qcom/common",
+    "revision":     "cm-13.0"
   },
   {
     "remote":       "github",
@@ -27,12 +33,6 @@
     "repository":   "alviteri/kernel",
     "target_path":  "kernel/sony/msm",
     "revision":     "6.0.0"
-  },
-  {
-    "remote":       "github",
-    "repository":   "alviteri/platform-hardware-qcom-power",
-    "target_path":  "hardware/qcom/power2",
-    "revision":     "master"
   },
   {
     "remote":       "github",

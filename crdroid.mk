@@ -1,6 +1,3 @@
-# Kernel
-TARGET_KERNEL_SOURCE := kernel/sony/msm
-
 # Boot animation
 TARGET_SCREEN_HEIGHT := 1920
 TARGET_SCREEN_WIDTH := 1080
@@ -12,7 +9,7 @@ DEVICE_PACKAGE_OVERLAYS += \
 $(call inherit-product, device/sony/honami/aosp_c6903.mk)
 
 # Inherit crDroid Rhine device parts
-$(call inherit-product, device/sony/rhine/device_crdroid.mk)
+$(call inherit-product, device/sony/rhine/device2.mk)
 
 ## crDroid Parts ##
 # Inherit crDroid common Phone stuff.
@@ -24,7 +21,7 @@ $(call inherit-product, vendor/crdroid/config/nfc_enhanced.mk)
 
 # Recovery
 PRODUCT_COPY_FILES += \
-    device/sony/honami/recovery/root/etc/bootrec-device:recovery/root/etc/bootrec-device
+    device/sony/honami/bootrec-device:root/sbin/bootrec-device
 
 # Fingerprint for Honami
 PRODUCT_BUILD_PROP_OVERRIDES += PRODUCT_NAME=C6903
